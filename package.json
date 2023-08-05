@@ -22,7 +22,8 @@
   "homepage": "https://github.com/ja54312/Dashboard#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.64.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

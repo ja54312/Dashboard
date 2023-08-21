@@ -1,6 +1,8 @@
 //Pages
 import Home from "./pages/home/Home"
-import Users from "./pages/users/Users"
+import Users from "./pages/users/User"
+import User from "./pages/user/User"
+//import Product from "./pages/product/Produtct"
 import Products from "./pages/products/Produtcts"
 import NavBar from "./components/navbar/NavBar"
 import Footer from "./components/footer/Footer"
@@ -43,17 +45,25 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Home />
+          element: <Home />,
         },
         {
-          path: "users",
-          element: <Users />
+          path: "/users",
+          element: <Users />,
         },
         {
-          path: "products",
-          element: <Products />
-        }
-      ]
+          path: "/products",
+          element: <Products />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
+        },
+        // {
+        //   path: "/products/:id",
+        //   element: <Product />,
+        // },
+      ],
     },
     {
       path: "login",

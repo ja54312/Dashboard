@@ -2,8 +2,9 @@
 import Home from "./pages/home/Home"
 import Users from "./pages/users/User"
 import User from "./pages/user/User"
-//import Product from "./pages/product/Produtct"
 import Products from "./pages/products/Produtcts"
+import Product from "./pages/product/Product"
+//Components
 import NavBar from "./components/navbar/NavBar"
 import Footer from "./components/footer/Footer"
 import Menu from "./components/menu/Menu"
@@ -59,10 +60,10 @@ function App() {
           path: "/users/:id",
           element: <User />,
         },
-        // {
-        //   path: "/products/:id",
-        //   element: <Product />,
-        // },
+        {
+          path: "/products/:id",
+          element: <Product />,
+        },
       ],
     },
     {

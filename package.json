@@ -7,7 +7,8 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deplou":"gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "@mui/material": "^5.14.5",
     "@mui/x-data-grid": "^6.11.2",
     "@tanstack/react-query": "^4.33.0",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
